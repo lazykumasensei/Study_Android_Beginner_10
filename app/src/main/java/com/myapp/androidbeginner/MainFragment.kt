@@ -19,7 +19,7 @@ class MainFragment: Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        fMain_text.text = "main"
+        fMain_text.text = "메인 페이지"
         fMain_text.setOnClickListener {
             findNavController().navigate(R.id.action_mainFragment_to_detailFragment)
         }
